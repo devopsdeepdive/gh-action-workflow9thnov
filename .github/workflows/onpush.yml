@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   test:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: my file
         run: echo "hello world"
