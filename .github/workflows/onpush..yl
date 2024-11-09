@@ -1,0 +1,9 @@
+name: Push Event workflow file
+on:
+  push:
+jobs:
+  test:
+    runs: ubuntu_latest
+    steps:
+      - name: my file
+        run: echo "hello world"
