@@ -8,6 +8,7 @@ jobs:
       - name: my file
         run: echo "hello world"
   test2:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: my file
