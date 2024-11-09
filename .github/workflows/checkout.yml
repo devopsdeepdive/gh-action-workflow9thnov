@@ -7,4 +7,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
+  saple:
+    needs: chekout
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        run: echo "hello world"
               
