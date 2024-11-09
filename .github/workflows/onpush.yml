@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: my file
         run: echo "hello world"
+  test2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my file
+        run: echo "hello world"
+   
